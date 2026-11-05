@@ -125,9 +125,8 @@ SEGMENTS = {
 }
 
 # Words that usually mean "not for us" (cleaning, food supply, vehicles fleet, etc.)
-DEFAULT_EXCLUDE = ["limpieza", "alimentos", "comedor", "vestuario", "combustible",
-                   "seguros", "vigilancia", "jardineria", "consultoria juridica",
-                   "medicamentos", "material sanitario", "papeleria"]
+DEFAULT_EXCLUDE = ["limpieza", "comedor", "combustible",
+                   "seguros", "vigilancia", "jardineria", "consultoria juridica"]
 
 # News queries for private-sector project signals
 DEFAULT_NEWS_QUERIES = [
