@@ -699,7 +699,7 @@ def main():
         st.subheader("Market")
         country_opts = list(COUNTRIES.keys())
         countries = st.multiselect("Countries (TED)", country_opts,
-                                   default=["ESP", "PRT", "FRA", "AND", "ITA"],
+                                   default=["ESP", "PRT", "AND"],
                                    format_func=lambda c: f"{c} - {COUNTRIES[c][0]}")
         days_back = st.slider("Published in the last (days)", 7, 365, 60)
 
